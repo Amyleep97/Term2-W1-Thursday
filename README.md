@@ -20,6 +20,21 @@ What is Database?
 
 # Types of Databases:
 - Relational: Tables with rows and columns. A collection of tables.
-- Hierarchial: Tree-like structures.
+- Hierarchial: Tree-like structures. (Is used in Hierarchial data bases)
 - Network: Complex relationships.
 - NoSQL: Flexiable data models
+
+# Why Database?
+
+- Data Integrity: Ensuring data accuracy and consistency.
+- Data Security: Protecting data from unauthorized access.
+- Data Sharing: Multiple users accessing data simultaneously.
+- Data Backup and Recovery: Protecting data from loss.
+
+# Relational Database
+
+- Based on the relational model. 
+- Orgnaized into tables.
+- Relationships between tables.
+
+Examples: School database has tables for teachers, students, courses, etc.
