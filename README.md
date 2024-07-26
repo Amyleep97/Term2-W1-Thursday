@@ -12,11 +12,41 @@
 
 - Collumns: Fields or attributes (features of the table)
 
-- Example: Student Table
+- Example: Student Table (A student ID)
 
-## Primary and Foreign Keys
+# Primary and Foreign Keys
 
-- ERD (Enitity Relationship Diagram)
+## Primary Key:
+
+- Uniquely identifies each row in a table
+
+- Cannot be null
+
+- Should be chosen carefully for performance
+
+## Foreign Key:
+
+- A field in one table that references the primary key in another table.
+
+- Establishes relationships between tables.
+
+- Enforces data integrity
+
+## ERD (Enitity Relationship Diagram)
+
+# Keys: Attributes with a purpose
+
+- Primary Key: Uniquely identifies each row in a table.
+
+- Candidate Key: Any attribute or combination of attributes that can uniquely identify a row.
+
+- Foreign Key: A field in one table that refers to the primary key in another table.
+
+Normalisation: Orgnaising Data 
+
+- Purpose: Remove redundancy, Imporove Data Integrity.
+
+- First Normal Form (1NF), Second Normal Form (2NF), Third Normal Form (3NF)
 
 # Database
 
