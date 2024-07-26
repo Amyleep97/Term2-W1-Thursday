@@ -42,7 +42,7 @@
 
 - Foreign Key: A field in one table that refers to the primary key in another table.
 
-Normalisation: Orgnaising Data 
+- Normalisation: Orgnaising Data 
 
 - Purpose: Remove redundancy, Imporove Data Integrity.
 
@@ -158,5 +158,28 @@ Examples: School database has tables for teachers, students, courses, etc.
 
 - Grant and revoke user permissions. (Incase the database is used by multiple people)
 
+# Normalisation
 
+## 1NF (First Normal Form):
 
+- Eliminates duplicate rows from a table.
+
+- Ensures each column value is atomic (Cannot be further devided)
+
+## 2NF (Second Normal Form):
+
+- Satisfies all the requirements of 1NF.
+
+- Eliminates partial dependencies. 
+
+- A partial dependency exsists when a non-key attribute depends only on a apart of the primary key.
+
+- Foreign keys are used here.
+
+## 3NF (Third Normal Form)
+
+- Satisfies all the requirements of 2NF
+
+- Elminates transivitive dependencies.
+
+- A transitive dependency exsists when a non-key attribute depends on another non-key attribute, which in turn depends on the primary key.
