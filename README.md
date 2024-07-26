@@ -38,3 +38,56 @@ What is Database?
 - Relationships between tables.
 
 Examples: School database has tables for teachers, students, courses, etc.
+
+# Advantages of Relational Database
+
+- Data independence 
+
+- Flexible 
+
+- Scalable
+
+- ACID Compliance (Key advantages)
+
+# What is ACID?
+
+## Atomicity
+
+- All database operations are treated as a single unit
+
+- Either all operations are completed or none are 
+
+- Example: Bank transaction (deposit or withdrawl)
+
+## Consistancy 
+
+- Database transitions from one valid state to another
+
+- Data integrity is maintained
+
+- Example account balance remains correct after a transaction.
+
+## Isolation
+
+- Concurrent transactions fo not interfere with each other
+
+- Each transaction sees a consistent view of the data base
+
+- Example: Muliple users accessing the same data.
+
+## Durability
+
+- Commited transactions are permanently stored
+
+- Data is not lost in case of system failure.
+
+- Example: Database backups and recovery.
+
+# Disadvatages of Relational Database
+
+- Performance issues with large datasets
+
+- Complex schema design (If your data base schema design is complex will have certain limitations and won't work to the optimal level)
+
+
+
