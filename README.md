@@ -220,6 +220,6 @@ https://app.diagrams.net/
 
 - Works two ways means one too many or many to one.
 
-# Example of ERD:
+# Example of ERD with One-to-one, One-to-many, Many-to-many:
 
-![diagram t2 thursday](https://github.com/user-attachments/assets/ac7d73f9-2cd8-4ecf-a6c7-a154d746d5ca)
+![one-to-one ect example](https://github.com/user-attachments/assets/343db6cd-888d-429d-838c-0eb3f665e908)
