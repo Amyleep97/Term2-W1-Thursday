@@ -2,9 +2,19 @@
 
 # Intro to database
 
-- Relational Models
+## Relational Models
 
-- Primary and Foreign Keys
+- Logical represention of Data model:
+
+- Tables: A collecion of related data orgnanized into rows and columns:
+
+- Rows: Records 
+
+- Collumns: Fields or attributes (features of the table)
+
+- Example: Student Table
+
+## Primary and Foreign Keys
 
 - ERD (Enitity Relationship Diagram)
 
@@ -12,13 +22,14 @@
 
 - Used files to store data before (txt, json, csv)
 
-What is Database?
+## What is Database?
 
 - Definition: An organized collection of data.
 - Purpose: Store, manage, and retrieve data effciently. When you have to refer back to the data it is easier to access when it is orgnaised. Manging could be editing, moving or updating data.
 - Examples: Student records, inventory, customer information.
 
 # Types of Databases:
+
 - Relational: Tables with rows and columns. A collection of tables.
 - Hierarchial: Tree-like structures. (Is used in Hierarchial data bases)
 - Network: Complex relationships.
@@ -88,6 +99,34 @@ Examples: School database has tables for teachers, students, courses, etc.
 - Performance issues with large datasets
 
 - Complex schema design (If your data base schema design is complex will have certain limitations and won't work to the optimal level)
+
+# Database Management System (DBMS)
+
+- Software that is used to control and manage data access.
+
+- Organsied and a safer way to use Database.
+
+- Database Administrator is reponsible for the system. 
+
+- Examples: MySQL, Microsoft Access, Oracle, PostgreSQL, etc.
+
+# Structured Query Language (SQL)
+
+- Standard language for managing reltional databases.
+
+- Used for: data definition, manipluation, and control. 
+
+## Data Definition Language (DDL)
+
+- Methods: Create, modify, and delte database structures.
+
+## Data manipulaton Language (DML)
+
+- Insert, update, delete, and retrieve data.
+
+## Data Control Langauge (DCL)
+
+- Grant and revoke user permissions. (Incase the database is used by multiple people)
 
 
 
