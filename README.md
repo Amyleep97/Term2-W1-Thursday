@@ -32,8 +32,6 @@
 
 - Enforces data integrity
 
-## ERD (Enitity Relationship Diagram)
-
 # Keys: Attributes with a purpose
 
 - Primary Key: Uniquely identifies each row in a table.
@@ -183,3 +181,45 @@ Examples: School database has tables for teachers, students, courses, etc.
 - Elminates transivitive dependencies.
 
 - A transitive dependency exsists when a non-key attribute depends on another non-key attribute, which in turn depends on the primary key.
+
+# Table Example
+
+![t2thursday databases table](https://github.com/user-attachments/assets/48d8e1e6-b7b2-4f67-8baf-996ccd509aca)
+
+
+
+# ERD (Enitity-Relationship Diagram)
+
+- Conceptual representaion of the database
+
+## Entity and Attributes:
+
+- Enitities: Real-world objects or concepts (e.g Students, Course, Subjects)
+
+-Attributes: Properties of entities (e.g StudentID, Name, CourseCode, CourseName, SubjectCode, SubjectName)
+
+https://app.diagrams.net/
+
+## Relationships
+
+- Associations between entities (e.g, Student Enrolls in Course)
+
+- Notation: Symbols, Crow's foot notation for cardinality.
+
+- Cardinality: Numer of instances involved in a relationship:
+
+### One-to-one: 
+
+- If one entity is connected to another.
+
+### One-to-many: 
+
+- one student is studying many course.
+
+### Many-to-many:
+
+- Works two ways means one too many or many to one.
+
+# Example of ERD:
+
+![diagram t2 thursday](https://github.com/user-attachments/assets/ac7d73f9-2cd8-4ecf-a6c7-a154d746d5ca)
